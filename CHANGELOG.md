@@ -53,3 +53,10 @@
 - Added Video Library structure.
 - Included BBG ID Showcase supporting video link.
 - Preserved primary video until dedicated pitching reel is produced.
+
+
+## v1.4 RC2
+- Elevated Prep Baseball Senior Future Games / Team West Coast selection.
+- Refined TB SoCal 2025 championship wording.
+- Added Competitive Highlights section.
+- Updated release notes for coach feedback phase.

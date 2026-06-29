@@ -1,15 +1,17 @@
-# Robert Bering Recruiting Platform v1.4 RC1
+# Robert Bering Recruiting Platform v1.4 RC2
 
 ## Theme
-Trust, verification, and recruiting progress.
+Recruiting narrative refinement and pre-coach-feedback release candidate.
 
-## What's Included
-- Verified Recruiting Profiles for Perfect Game, Prep Baseball, and Five Tool.
-- Pitch Arsenal 2.0 with slider correctly presented as a breaking ball and changeup as offspeed.
-- Recent Updates section.
-- Evaluated Through section.
-- Video Library structure with current primary video and BBG ID Showcase as supporting video.
-- Coach Recruiting Center organized around coach workflow.
+## What's Updated
+- Elevated Prep Baseball Senior Future Games selection as the highest-priority recent update.
+- Added clear wording: selected to Team West Coast for the 2026 Prep Baseball Senior Future Games in Georgia.
+- Refined USA Baseball/TB SoCal language for accuracy:
+  - 2025 TB SoCal 16U Arizona National Team Championship team
+  - Robert was a contributing member
+  - Entrusted with the final two innings of the semifinal to help advance TB SoCal to the championship game
+- Added Competitive Highlights section.
+- Preserved Verified Recruiting Profiles, Pitch Arsenal 2.0, Evaluated Through, and Video Library.
 
-## Notes
-The current primary recruiting video remains in place. A dedicated 90-second pitching evaluation reel is planned for v1.5.
+## Next Step
+Freeze feature development and gather coach feedback before v1.4 Final.
