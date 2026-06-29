@@ -8,3 +8,10 @@
 - Improved gallery image treatment
 - Added hover states for desktop
 - Preserved coach-first information hierarchy
+
+
+## Platform 1.2 Sprint D - Mobile + Button Polish
+- Centered button text vertically and horizontally
+- Improved multi-line button balance
+- Improved mobile navigation and tap targets
+- Improved small-screen spacing
