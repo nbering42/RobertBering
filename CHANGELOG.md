@@ -30,3 +30,10 @@
 - Simplified public-facing language
 - Removed public five-question framework
 - Clarified coach-facing section titles
+
+
+## v1.3.1 - UI Hotfix
+- Fixed Sonny Merlo quote contrast on Coach Recruiting Center
+- Added bulletproof coach recommendation component
+- Unified button alignment across pages
+- Improved mobile quote readability
