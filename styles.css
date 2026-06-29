@@ -24,3 +24,23 @@
   h1{font-size:52px}
   .hero-meta,.brandline{font-size:20px}
 }
+
+/* Platform 1.1 Sprint 1 - Coach Experience */
+.hero-coach-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:22px 0 28px}
+.hero-coach-grid div{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);padding:14px 16px}
+.hero-coach-grid span{display:block;color:rgba(255,255,255,.65);text-transform:uppercase;letter-spacing:.12em;font-size:10px;font-weight:900}
+.hero-coach-grid strong{display:block;color:#fff;font-size:18px;margin-top:4px}
+.coach-dashboard{display:grid;grid-template-columns:1.1fr .9fr;gap:28px;align-items:start}
+.dashboard-panel{background:var(--navy);color:#fff;padding:30px}
+.dashboard-panel h3{color:#fff}
+.dashboard-actions{display:grid;gap:12px;margin-top:18px}
+.dashboard-actions .btn.secondary{color:var(--navy);border-color:var(--navy);background:#fff}
+.coach-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.coach-card{background:var(--light);border-top:4px solid var(--gold);padding:24px}
+.coach-card h3{margin-bottom:8px}
+.compact-schedule{display:grid;gap:12px}
+.compact-schedule div{display:grid;grid-template-columns:130px 1fr;gap:14px;padding:14px 0;border-bottom:1px solid var(--line)}
+.compact-schedule span{font-weight:900;color:var(--gold)}
+@media(max-width:980px){
+  .hero-coach-grid,.coach-dashboard,.coach-cards{grid-template-columns:1fr}
+}
