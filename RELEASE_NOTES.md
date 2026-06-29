@@ -15,3 +15,6 @@ Recruiting narrative refinement and pre-coach-feedback release candidate.
 
 ## Next Step
 Freeze feature development and gather coach feedback before v1.4 Final.
+
+
+Minor editorial refinements before coach review.
