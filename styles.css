@@ -556,3 +556,98 @@ button.mobile-menu-button {
     max-width: 210px;
   }
 }
+
+/* Platform 1.2 Sprint E - Coach psychology and homepage button alignment */
+
+/* Stronger homepage button centering, including all home hero states */
+.home-actions {
+  align-items: stretch;
+}
+.home-actions .btn {
+  height: 72px;
+  min-height: 72px;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center;
+  line-height: 1.15;
+}
+
+/* Coach psychology cards */
+.coach-question-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 14px;
+  margin-top: 26px;
+}
+.coach-question-card {
+  background: #fff;
+  border-top: 4px solid var(--gold);
+  border-radius: 18px;
+  padding: 22px;
+  box-shadow: 0 14px 40px rgba(7,23,41,.06);
+}
+.coach-question-card span {
+  display: block;
+  color: var(--gray);
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  font-size: 10px;
+  font-weight: 900;
+  margin-bottom: 8px;
+}
+.coach-question-card strong {
+  display: block;
+  font-size: 18px;
+  line-height: 1.15;
+}
+.coach-question-card p {
+  color: #2d333b;
+  margin: 10px 0 0;
+}
+
+/* Reduce long-read feel and make sections scan faster */
+.scan-line {
+  max-width: 960px;
+  font-size: 22px;
+  line-height: 1.35;
+  color: #2d333b;
+}
+.evidence-strip {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-top: 24px;
+}
+.evidence-strip div {
+  background: var(--light);
+  border-top: 4px solid var(--gold);
+  border-radius: 18px;
+  padding: 22px;
+  box-shadow: 0 14px 40px rgba(7,23,41,.06);
+}
+.evidence-strip span {
+  display: block;
+  color: var(--gray);
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  font-size: 10px;
+  font-weight: 900;
+}
+.evidence-strip strong {
+  display: block;
+  margin-top: 8px;
+  font-size: 20px;
+}
+
+/* Mobile */
+@media(max-width:980px){
+  .home-actions .btn {
+    height: 66px;
+    min-height: 66px;
+  }
+  .coach-question-grid,
+  .evidence-strip {
+    grid-template-columns: 1fr;
+  }
+}

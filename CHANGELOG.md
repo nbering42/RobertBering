@@ -15,3 +15,10 @@
 - Improved multi-line button balance
 - Improved mobile navigation and tap targets
 - Improved small-screen spacing
+
+
+## Platform 1.2 Sprint E - Coach Psychology
+- Added coach evaluation lens to homepage
+- Added quick evidence strip to Coach Recruiting Center
+- Strengthened homepage button vertical centering
+- Reinforced coach-first information hierarchy
