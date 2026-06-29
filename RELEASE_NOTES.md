@@ -1,11 +1,15 @@
-# Recruiting Platform v1.4 Sprint 1 - Trust & Verification
+# Robert Bering Recruiting Platform v1.4 RC1
 
-## Objective
-Reduce friction for coaches and increase credibility through independent profile access and more accurate baseball terminology.
+## Theme
+Trust, verification, and recruiting progress.
 
-## What's New
-- Added Verified Recruiting Profiles section to Coach Recruiting Center.
-- Added direct links to Perfect Game, Prep Baseball, and Five Tool profiles.
-- Redesigned Pitch Arsenal to correctly present Fastball, Slider (Breaking Ball), and Changeup (Offspeed).
-- Reordered Coach Recruiting Center around coach workflow.
-- Added Editorial Standards document and VERSION file.
+## What's Included
+- Verified Recruiting Profiles for Perfect Game, Prep Baseball, and Five Tool.
+- Pitch Arsenal 2.0 with slider correctly presented as a breaking ball and changeup as offspeed.
+- Recent Updates section.
+- Evaluated Through section.
+- Video Library structure with current primary video and BBG ID Showcase as supporting video.
+- Coach Recruiting Center organized around coach workflow.
+
+## Notes
+The current primary recruiting video remains in place. A dedicated 90-second pitching evaluation reel is planned for v1.5.

@@ -45,3 +45,11 @@
 - Redesigned Pitch Arsenal terminology and presentation.
 - Reordered Coach Recruiting Center around coach evaluation flow.
 - Added editorial standards and versioning documents.
+
+
+## v1.4 RC1
+- Added Recent Updates.
+- Added Evaluated Through.
+- Added Video Library structure.
+- Included BBG ID Showcase supporting video link.
+- Preserved primary video until dedicated pitching reel is produced.
