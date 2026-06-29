@@ -44,3 +44,76 @@
 @media(max-width:980px){
   .hero-coach-grid,.coach-dashboard,.coach-cards{grid-template-columns:1fr}
 }
+
+/* Platform 1.1 Sprint 2 - Coach Recruiting Center */
+.mobile-menu-button{display:none}
+.recruiting-status{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:12px;
+  margin:24px 0 28px;
+}
+.recruiting-status div{
+  background:var(--light);
+  border-top:4px solid var(--gold);
+  padding:16px;
+}
+.recruiting-status span{
+  display:block;
+  text-transform:uppercase;
+  letter-spacing:.12em;
+  font-size:10px;
+  font-weight:900;
+  color:var(--gray);
+}
+.recruiting-status strong{
+  display:block;
+  margin-top:6px;
+  font-size:17px;
+}
+.mobile-action-stack{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:12px;
+}
+.mobile-action-stack .btn{
+  text-align:center;
+}
+.coach-center-hero{
+  display:grid;
+  grid-template-columns:1fr .9fr;
+  gap:34px;
+  align-items:start;
+}
+.coach-center-hero .dashboard-panel{
+  margin-top:0;
+}
+.download-card{
+  background:var(--light);
+  border-top:4px solid var(--gold);
+  padding:24px;
+}
+@media(max-width:980px){
+  .mobile-menu-button{display:block;margin-left:auto;border:1px solid var(--navy);border-radius:999px;padding:9px 13px;font-weight:900;background:#fff;color:var(--navy)}
+  .nav{align-items:center}
+  .nav nav{
+    display:none;
+    width:100%;
+    flex-direction:column;
+    gap:0;
+    padding-top:14px;
+  }
+  .nav:hover nav, .nav:focus-within nav{
+    display:flex;
+  }
+  .nav nav a{
+    padding:14px 0;
+    border-top:1px solid var(--line);
+    white-space:normal;
+  }
+  .nav-cta{display:none}
+  .coach-center-hero,.recruiting-status,.mobile-action-stack{grid-template-columns:1fr}
+  .mobile-action-stack .btn{width:100%;display:block}
+  .dashboard-actions{display:grid;grid-template-columns:1fr;gap:12px}
+  .dashboard-actions .btn{width:100%;text-align:center}
+}

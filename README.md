@@ -1,20 +1,20 @@
-# Robert Bering Recruiting Platform 1.1 - Sprint 1 Coach Experience
+# Robert Bering Recruiting Platform 1.1 - Sprint 2 Coach Recruiting Center
 
 Flat-upload GitHub package. No assets folder required.
 
-## Sprint 1 updates
-- Coach-first homepage
-- Three primary hero actions: Coach Experience, Video, Schedule
-- Added Coach Experience hub
-- Added 90-second evaluation dashboard
-- Added coach quick links
-- Added Why Coaches Recruit Robert section
-- Added compact evaluation schedule
-- Improved mobile-friendly action layout
+## Sprint 2 updates
+- Renamed Coach Experience to Coach Recruiting Center
+- Removed duplicate "For Coaches" CTA
+- Added cleaner mobile navigation pattern
+- Rewrote coach intro: "Everything you need to evaluate Robert—in one place."
+- Added Currently Recruiting status panel
+- Stacked primary mobile actions
+- Moved coach quote higher
+- Added Downloads section for profile, coach card, and video
 
-## Upload with GitHub Desktop
+## GitHub Desktop upload
 1. Unzip this package.
 2. Copy all files into your local RobertBering repository folder.
 3. In GitHub Desktop, review changes.
-4. Commit: Platform 1.1 Sprint 1 Coach Experience
+4. Commit: Platform 1.1 Sprint 2 Coach Recruiting Center
 5. Push origin.
