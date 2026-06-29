@@ -651,3 +651,92 @@ button.mobile-menu-button {
     grid-template-columns: 1fr;
   }
 }
+
+/* Recruiting Platform 1.3 - Editorial Polish */
+
+/* Editorial quote fix: navy background + readable white text */
+.quote,
+.home-quote-compact,
+.coach-quote {
+  background: radial-gradient(circle at top left, rgba(184,149,66,.18), transparent 32%), var(--navy) !important;
+  color: #fff !important;
+}
+
+.quote blockquote,
+.home-quote-compact blockquote,
+.coach-quote p {
+  color: #fff !important;
+}
+
+.quote cite,
+.home-quote-compact cite,
+.coach-quote cite {
+  color: var(--gold) !important;
+}
+
+/* Clean editorial section rhythm */
+.section {
+  padding-top: 76px;
+  padding-bottom: 76px;
+}
+
+.home-section-tight {
+  padding-top: 68px;
+  padding-bottom: 68px;
+}
+
+/* Remove visual clutter from question-framework cards */
+.coach-question-grid {
+  display: none !important;
+}
+
+/* Rename/repurpose the supporting section visually */
+.editorial-lead {
+  max-width: 940px;
+  font-size: 22px;
+  line-height: 1.35;
+  color: #2d333b;
+}
+
+/* Stronger contact and schedule scannability */
+.compact-schedule div,
+.schedule-list div {
+  border-left: 4px solid var(--gold);
+}
+
+.home-contact-strip div,
+.contact-grid div {
+  min-height: 170px;
+}
+
+/* Premium pull quote spacing */
+.home-quote-compact {
+  padding-top: 76px;
+  padding-bottom: 76px;
+}
+
+.home-quote-compact blockquote {
+  max-width: 1040px;
+}
+
+/* Keep homepage buttons polished */
+.home-actions .btn,
+.coach-actions-simple .btn,
+.dashboard-actions .btn {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+}
+
+/* Print/readability */
+@media(max-width:980px){
+  .section {
+    padding-top: 58px;
+    padding-bottom: 58px;
+  }
+  .home-quote-compact {
+    padding-top: 58px;
+    padding-bottom: 58px;
+  }
+}

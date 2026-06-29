@@ -22,3 +22,11 @@
 - Added quick evidence strip to Coach Recruiting Center
 - Strengthened homepage button vertical centering
 - Reinforced coach-first information hierarchy
+
+
+## Recruiting Platform 1.3 - Editorial Polish
+- Fixed Sonny Merlo quote contrast/readability
+- Removed rhetorical question headings
+- Simplified public-facing language
+- Removed public five-question framework
+- Clarified coach-facing section titles

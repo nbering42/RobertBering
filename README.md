@@ -1,18 +1,23 @@
-# Robert Bering Recruiting Platform 1.2 - Sprint E Coach Psychology
+# Robert Bering Recruiting Platform 1.3 - Editorial Polish
 
 Flat-upload GitHub package. No assets folder required.
 
-## Sprint E updates
-- Added coach evaluation lens to the homepage
-- Added "five questions, clear answers" framework
-- Added faster-scan evidence section to Coach Recruiting Center
-- Reinforced coach-first decision path: play, production, trust, development, evaluation
-- Applied stronger homepage button centering and height consistency
-- Preserved Sprint D mobile button polish
+## Release 1.3 updates
+- Fixed Sonny Merlo quote contrast/readability
+- Removed rhetorical/question-style public headings
+- Simplified homepage language
+- Replaced internal design language with coach-facing section titles
+- Removed the public “five questions” framework
+- Tightened section names:
+  - Player Snapshot
+  - Coach Recommendation
+  - Upcoming Evaluation Opportunities
+  - Recruiting Contacts
+- Preserved Platform 1.2 premium design and button polish
 
 ## GitHub Desktop upload
 1. Unzip this package.
 2. Copy all files into your local RobertBering repository folder.
 3. In GitHub Desktop, review changes.
-4. Commit: Platform 1.2 Sprint E Coach Psychology
+4. Commit: Recruiting Platform 1.3 Editorial Polish
 5. Push origin.
