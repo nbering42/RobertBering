@@ -1,20 +1,20 @@
-# Robert Bering Recruiting Platform 1.1 - Sprint 2 Coach Recruiting Center
+# Robert Bering Recruiting Platform 1.2 - Sprint A Homepage
 
 Flat-upload GitHub package. No assets folder required.
 
-## Sprint 2 updates
-- Renamed Coach Experience to Coach Recruiting Center
-- Removed duplicate "For Coaches" CTA
-- Added cleaner mobile navigation pattern
-- Rewrote coach intro: "Everything you need to evaluate Robert—in one place."
-- Added Currently Recruiting status panel
-- Stacked primary mobile actions
-- Moved coach quote higher
-- Added Downloads section for profile, coach card, and video
+## Sprint A updates
+- Rebuilt homepage for coach-first scanning
+- Above-the-fold essentials: name, class, physical profile, velocity, pitch mix, academics, NCAA ID
+- Primary actions: Watch Video, Recruiting Profile, Schedule
+- Moved Coach Merlo quote immediately below hero
+- Added Coach Snapshot section
+- Added next three evaluation opportunities
+- Added quick contact strip
+- Improved mobile homepage layout
 
 ## GitHub Desktop upload
 1. Unzip this package.
 2. Copy all files into your local RobertBering repository folder.
 3. In GitHub Desktop, review changes.
-4. Commit: Platform 1.1 Sprint 2 Coach Recruiting Center
+4. Commit: Platform 1.2 Sprint A Homepage
 5. Push origin.
