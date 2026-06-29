@@ -37,3 +37,11 @@
 - Added bulletproof coach recommendation component
 - Unified button alignment across pages
 - Improved mobile quote readability
+
+
+## v1.4 Sprint 1 - Trust & Verification
+- Added Verified Recruiting Profiles section.
+- Added Perfect Game, Prep Baseball, and Five Tool profile links.
+- Redesigned Pitch Arsenal terminology and presentation.
+- Reordered Coach Recruiting Center around coach evaluation flow.
+- Added editorial standards and versioning documents.
