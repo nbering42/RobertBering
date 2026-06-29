@@ -297,3 +297,151 @@
   .coach-center-simple,.coach-actions-simple{grid-template-columns:1fr}
   .coach-actions-simple .btn{display:block;width:100%}
 }
+
+/* Platform 1.2 Sprint C - Premium visual design */
+:root{
+  --cream:#fbfaf7;
+  --shadow:0 24px 70px rgba(7,23,41,.14);
+}
+body{
+  background:var(--cream);
+}
+.nav{
+  box-shadow:0 8px 30px rgba(7,23,41,.06);
+}
+.home-hero-v12{
+  position:relative;
+  overflow:hidden;
+}
+.home-hero-v12:after{
+  content:"";
+  position:absolute;
+  inset:0;
+  pointer-events:none;
+  background:linear-gradient(90deg,rgba(7,23,41,.08),rgba(7,23,41,.22));
+}
+.home-hero-v12 .hero-panel,
+.home-hero-v12 .hero-photo{
+  position:relative;
+  z-index:1;
+}
+.home-hero-v12 .hero-panel{
+  background:linear-gradient(135deg,rgba(7,23,41,1),rgba(16,37,66,.92));
+}
+.home-hero-v12 h1{
+  letter-spacing:-.08em;
+  text-shadow:0 20px 60px rgba(0,0,0,.18);
+}
+.core-profile div,
+.glance div,
+.coach-card,
+.download-card,
+.preview-card,
+.home-contact-strip div,
+.recruiting-status div,
+.contact-grid div,
+.timeline div,
+.mini div{
+  border-radius:18px;
+  box-shadow:0 14px 40px rgba(7,23,41,.06);
+}
+.core-profile div{
+  border-radius:14px;
+}
+.section{
+  background:#fff;
+}
+.section:nth-of-type(even){
+  background:var(--cream);
+}
+.home-quote-compact,
+.quote{
+  background:radial-gradient(circle at top left,rgba(184,149,66,.2),transparent 28%),var(--navy);
+}
+.home-quote-compact blockquote,
+.quote blockquote{
+  letter-spacing:-.04em;
+}
+.btn{
+  transition:transform .18s ease, box-shadow .18s ease, background .18s ease;
+}
+.btn:hover{
+  transform:translateY(-2px);
+  box-shadow:0 12px 30px rgba(7,23,41,.16);
+}
+.primary{
+  box-shadow:0 12px 26px rgba(184,149,66,.18);
+}
+.pitch-table{
+  border-radius:18px;
+  overflow:hidden;
+  box-shadow:var(--shadow);
+  background:#fff;
+}
+.pitch-row.head{
+  background:linear-gradient(135deg,var(--navy),#17375f);
+}
+.dark-card,
+.dashboard-panel{
+  border-radius:24px;
+  box-shadow:var(--shadow);
+  background:linear-gradient(145deg,var(--navy),#17375f);
+}
+.gallery-grid img{
+  border-radius:20px;
+  box-shadow:0 18px 46px rgba(7,23,41,.12);
+}
+.gallery-grid img:hover{
+  transform:translateY(-3px);
+}
+.gallery-grid img{
+  transition:transform .2s ease;
+}
+.schedule-list div,
+.compact-schedule div{
+  background:#fff;
+  padding-left:18px;
+  padding-right:18px;
+}
+.compact-schedule div{
+  border-radius:14px;
+  margin-bottom:10px;
+  box-shadow:0 10px 28px rgba(7,23,41,.05);
+}
+.home-section-tight h2,
+.section h2{
+  max-width:960px;
+}
+.eyebrow{
+  color:var(--gold);
+}
+.profile-wrap,
+.card{
+  background:#fff;
+  border-radius:24px;
+  box-shadow:var(--shadow);
+}
+.card-photo{
+  box-shadow:inset 0 -80px 80px rgba(0,0,0,.18);
+}
+@media(max-width:980px){
+  .home-hero-v12 h1{
+    margin-bottom:18px;
+  }
+  .home-hero-v12 .hero-panel{
+    background:var(--dark);
+  }
+  .section{
+    padding-top:64px;
+    padding-bottom:64px;
+  }
+  .core-profile div,
+  .glance div,
+  .coach-card,
+  .download-card,
+  .home-contact-strip div,
+  .recruiting-status div,
+  .contact-grid div{
+    border-radius:16px;
+  }
+}
